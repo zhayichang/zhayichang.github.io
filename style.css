@@ -865,6 +865,10 @@ section.reveal,
         margin: 0 auto;
     }
 
+    .profile-photo img {
+        object-position: center 20%;
+    }
+
     .header-text {
         display: flex;
         flex-direction: column;
