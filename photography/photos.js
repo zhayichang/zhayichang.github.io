@@ -181,6 +181,20 @@ window.photoSeries = [
         "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/06-large.jpg",
         "width": 720,
         "height": 405
+      },
+      {
+        "title": "07",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/07-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/07-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "title": "08",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/08-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/08-large.jpg",
+        "width": 720,
+        "height": 478
       }
     ]
   },
@@ -303,6 +317,81 @@ window.photoSeries = [
         "title": "17",
         "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/17-thumb.jpg",
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/17-large.jpg",
+        "width": 720,
+        "height": 480
+      }
+    ]
+  },
+  {
+    "title": "远方 HORIZON",
+    "photos": [
+      {
+        "title": "01",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/01-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/01-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "title": "02",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/02-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/02-large.jpg",
+        "width": 720,
+        "height": 347
+      },
+      {
+        "title": "03",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/03-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/03-large.jpg",
+        "width": 720,
+        "height": 447
+      },
+      {
+        "title": "04",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/04-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/04-large.jpg",
+        "width": 720,
+        "height": 432
+      },
+      {
+        "title": "05",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/05-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/05-large.jpg",
+        "width": 720,
+        "height": 313
+      },
+      {
+        "title": "06",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/06-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/06-large.jpg",
+        "width": 720,
+        "height": 389
+      },
+      {
+        "title": "07",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/07-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/07-large.jpg",
+        "width": 720,
+        "height": 476
+      },
+      {
+        "title": "08",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/08-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/08-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "title": "09",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/09-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/09-large.jpg",
+        "width": 720,
+        "height": 393
+      },
+      {
+        "title": "10",
+        "thumb": "images/%E8%BF%9C%E6%96%B9%20HORIZON/10-thumb.jpg",
+        "large": "images/%E8%BF%9C%E6%96%B9%20HORIZON/10-large.jpg",
         "width": 720,
         "height": 480
       }
