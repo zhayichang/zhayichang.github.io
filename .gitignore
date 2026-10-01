@@ -1,5 +1,6 @@
 photography/originals/
 photography/private-archive/
 photography/__pycache__/
+photography/README.md
 .playwright-cli/
 .DS_Store
