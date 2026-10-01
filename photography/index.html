@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7">
+  <title>摄影作品集 | 查一畅</title>
+  <meta name="description" content="查一畅的摄影作品集。">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="photos.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <a class="home-link" href="../">← 返回个人主页</a>
+      <span class="site-name">ZHA Yichang · Photography</span>
+    </header>
+
+    <main>
+      <div class="intro">
+        <p class="eyebrow">PHOTOGRAPHY</p>
+        <h1>摄影作品集</h1>
+        <p>一些被镜头留下的片刻。</p>
+      </div>
+      <nav id="series-nav" class="series-nav" aria-label="作品系列"></nav>
+      <div id="series-list"></div>
+    </main>
+    <footer>© 2026 ZHA Yichang</footer>
+  </div>
+
+  <dialog id="lightbox" aria-label="放大查看照片">
+    <div class="lightbox-bar">
+      <span id="photo-position"></span>
+      <button id="close-photo" type="button" aria-label="关闭照片">×</button>
+    </div>
+    <button id="previous-photo" class="lightbox-arrow previous" type="button" aria-label="上一张">‹</button>
+    <img id="large-photo" alt="">
+    <button id="next-photo" class="lightbox-arrow next" type="button" aria-label="下一张">›</button>
+    <p id="photo-title"></p>
+  </dialog>
+</body>
+</html>

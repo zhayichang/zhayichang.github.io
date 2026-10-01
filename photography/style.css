@@ -1,0 +1,47 @@
+:root {
+  color-scheme: light dark;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+body:has(dialog[open]) { overflow: hidden; }
+button { font: inherit; }
+a { color: inherit; }
+.page { max-width: 1240px; padding: 0 28px; margin: auto; }
+.site-header { min-height: 86px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid #dedee2; }
+.home-link { text-decoration: none; font-size: .9rem; }
+.home-link:hover { text-decoration: underline; }
+.site-name { color: #77777e; font-size: .82rem; letter-spacing: .04em; }
+.intro { padding: 88px 0 54px; }
+.eyebrow { margin: 0 0 16px; color: #77777e; font-size: .75rem; font-weight: 600; letter-spacing: .2em; }
+h1 { margin: 0; font-size: clamp(2.7rem, 7vw, 5.5rem); line-height: 1.08; letter-spacing: -.045em; font-weight: 600; }
+.intro > p:last-child { margin: 22px 0 0; color: #6e6e73; font-size: 1.02rem; }
+.series-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 74px; }
+.series-nav a { padding: 9px 17px; border: 1px solid #d8d8dc; border-radius: 100px; text-decoration: none; font-size: .85rem; transition: background .18s, border-color .18s; }
+.series-nav a:hover, .series-nav a:focus-visible { background: #fff; border-color: #a5a5ab; }
+.series { scroll-margin-top: 26px; margin-bottom: 100px; }
+.series-heading { display: flex; align-items: baseline; gap: 16px; margin-bottom: 27px; }
+.series-heading h2 { margin: 0; font-size: clamp(1.6rem, 3vw, 2.25rem); line-height: 1.2; letter-spacing: -.025em; font-weight: 550; }
+.series-heading span { color: #88888e; font-size: .85rem; }
+.photo-grid { columns: 3; column-gap: 18px; }
+.photo-card { display: block; width: 100%; padding: 0; margin: 0 0 18px; border: 0; border-radius: 8px; overflow: hidden; background: #e9e9ec; break-inside: avoid; cursor: zoom-in; text-align: left; }
+.photo-card img { display: block; width: 100%; height: auto; transition: transform .3s ease, filter .3s ease; }
+.photo-card:hover img { transform: scale(1.025); filter: brightness(.95); }
+.photo-card:focus-visible { outline: 3px solid #0066cc; outline-offset: 3px; }
+footer { padding: 28px 0 44px; border-top: 1px solid #dedee2; color: #88888e; font-size: .85rem; }
+dialog { position: fixed; width: 100vw; max-width: none; height: 100dvh; max-height: none; inset: 0; margin: 0; padding: 0; border: 0; background: #111; color: #fff; }
+dialog::backdrop { background: #111; }
+.lightbox-bar { position: absolute; z-index: 2; top: 0; left: 0; right: 0; height: 66px; padding: 0 22px; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(#0009, transparent); font-size: .85rem; }
+#close-photo { width: 44px; height: 44px; border: 0; background: #ffffff20; border-radius: 50%; color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; }
+#large-photo { display: block; width: 100%; height: 100%; object-fit: contain; padding: 66px 75px 78px; }
+.lightbox-arrow { position: absolute; z-index: 2; top: 50%; transform: translateY(-50%); width: 48px; height: 60px; border: 0; background: #ffffff20; color: #fff; font-size: 2.4rem; cursor: pointer; }
+.lightbox-arrow.previous { left: 12px; }
+.lightbox-arrow.next { right: 12px; }
+#photo-title { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); margin: 0; max-width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #ddd; font-size: .9rem; }
+@media (max-width: 800px) { .photo-grid { columns: 2; } .intro { padding-top: 64px; } }
+@media (max-width: 560px) { .page { padding: 0 16px; } .site-header { min-height: 68px; } .site-name { display: none; } .intro { padding: 60px 0 38px; } .series-nav { margin-bottom: 58px; } .photo-grid { columns: 1; } .series { margin-bottom: 68px; } #large-photo { padding: 68px 8px 85px; } .lightbox-arrow { top: auto; bottom: 12px; transform: none; } .lightbox-arrow.previous { left: 16px; } .lightbox-arrow.next { right: 16px; } }
+@media (prefers-color-scheme: dark) { :root { background: #090909; color: #f5f5f7; } .site-header, footer { border-color: #303035; } .site-name, .eyebrow, .intro > p:last-child, .series-heading span, footer { color: #a1a1a6; } .series-nav a { border-color: #414146; } .series-nav a:hover, .series-nav a:focus-visible { background: #252528; border-color: #999; } .photo-card { background: #252528; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .photo-card img, .series-nav a { transition: none; } }
