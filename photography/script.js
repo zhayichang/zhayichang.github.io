@@ -7,6 +7,15 @@ const title = document.querySelector('#photo-title');
 const photos = [];
 let current = 0;
 
+function shuffle(items) {
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+  return shuffled;
+}
+
 function showPhoto(index) {
   current = (index + photos.length) % photos.length;
   const photo = photos[current];
@@ -36,7 +45,7 @@ window.photoSeries.forEach((series, seriesIndex) => {
   const grid = document.createElement('div');
   grid.className = 'photo-grid';
 
-  series.photos.forEach(photo => {
+  shuffle(series.photos).forEach(photo => {
     const index = photos.push(photo) - 1;
     const button = document.createElement('button');
     button.className = 'photo-card';

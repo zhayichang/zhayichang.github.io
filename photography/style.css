@@ -27,7 +27,7 @@ h1 { margin: 0; font-size: clamp(2.7rem, 7vw, 5.5rem); line-height: 1.08; letter
 .series-heading h2 { margin: 0; font-size: clamp(1.6rem, 3vw, 2.25rem); line-height: 1.2; letter-spacing: -.025em; font-weight: 550; }
 .series-heading span { color: #88888e; font-size: .85rem; }
 .photo-grid { columns: 3; column-gap: 18px; }
-.photo-card { display: block; width: 100%; padding: 0; margin: 0 0 18px; border: 0; border-radius: 8px; overflow: hidden; background: #e9e9ec; break-inside: avoid; cursor: zoom-in; text-align: left; }
+.photo-card { display: inline-block; vertical-align: top; width: 100%; padding: 0; margin: 0 0 18px; border: 0; border-radius: 8px; overflow: hidden; background: #e9e9ec; break-inside: avoid; cursor: zoom-in; text-align: left; }
 .photo-card img { display: block; width: 100%; height: auto; transition: transform .3s ease, filter .3s ease; }
 .photo-card:hover img { transform: scale(1.025); filter: brightness(.95); }
 .photo-card:focus-visible { outline: 3px solid #0066cc; outline-offset: 3px; }
