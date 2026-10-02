@@ -134,6 +134,34 @@ window.photoSeries = [
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/19-large.jpg",
         "width": 720,
         "height": 410
+      },
+      {
+        "title": "20",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/20-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/20-large.jpg",
+        "width": 720,
+        "height": 354
+      },
+      {
+        "title": "21",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/21-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/21-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "title": "22",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/22-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/22-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "title": "23",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/23-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/23-large.jpg",
+        "width": 480,
+        "height": 720
       }
     ]
   },
@@ -195,6 +223,41 @@ window.photoSeries = [
         "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/08-large.jpg",
         "width": 720,
         "height": 478
+      },
+      {
+        "title": "09",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/09-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/09-large.jpg",
+        "width": 720,
+        "height": 540
+      },
+      {
+        "title": "10",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/10-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/10-large.jpg",
+        "width": 511,
+        "height": 720
+      },
+      {
+        "title": "11",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/11-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/11-large.jpg",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "title": "12",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/12-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/12-large.jpg",
+        "width": 540,
+        "height": 720
+      },
+      {
+        "title": "13",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/13-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/13-large.jpg",
+        "width": 720,
+        "height": 720
       }
     ]
   },
@@ -317,6 +380,27 @@ window.photoSeries = [
         "title": "17",
         "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/17-thumb.jpg",
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/17-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "title": "18",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/18-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/18-large.jpg",
+        "width": 576,
+        "height": 720
+      },
+      {
+        "title": "19",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/19-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/19-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "title": "20",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/20-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/20-large.jpg",
         "width": 720,
         "height": 480
       }
