@@ -314,6 +314,13 @@ window.photoSeries = [
         "height": 480
       },
       {
+        "title": "北京·景山·夕阳归鸟",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E6%99%AF%E5%B1%B1%C2%B7%E5%A4%95%E9%98%B3%E5%BD%92%E9%B8%9F-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E6%99%AF%E5%B1%B1%C2%B7%E5%A4%95%E9%98%B3%E5%BD%92%E9%B8%9F-large.jpg",
+        "width": 720,
+        "height": 425
+      },
+      {
         "title": "北京·灯火之路",
         "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E7%81%AF%E7%81%AB%E4%B9%8B%E8%B7%AF-thumb.jpg",
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E7%81%AF%E7%81%AB%E4%B9%8B%E8%B7%AF-large.jpg",
