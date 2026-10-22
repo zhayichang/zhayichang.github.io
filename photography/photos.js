@@ -94,6 +94,13 @@ window.photoSeries = [
         "height": 480
       },
       {
+        "title": "北京·阅古楼天井",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%98%85%E5%8F%A4%E6%A5%BC%E5%A4%A9%E4%BA%95-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%98%85%E5%8F%A4%E6%A5%BC%E5%A4%A9%E4%BA%95-large.jpg",
+        "width": 720,
+        "height": 465
+      },
+      {
         "title": "北京·颐和园·晚霞",
         "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E6%99%9A%E9%9C%9E-thumb.jpg",
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E6%99%9A%E9%9C%9E-large.jpg",
@@ -312,6 +319,13 @@ window.photoSeries = [
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%A4%A9%E5%9D%9B%E5%85%AC%E5%9B%AD%C2%B7%E6%9A%AE-large.jpg",
         "width": 720,
         "height": 480
+      },
+      {
+        "title": "北京·太庙·檐",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%A4%AA%E5%BA%99%C2%B7%E6%AA%90-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%A4%AA%E5%BA%99%C2%B7%E6%AA%90-large.jpg",
+        "width": 506,
+        "height": 720
       },
       {
         "title": "北京·景山·夕阳归鸟",
