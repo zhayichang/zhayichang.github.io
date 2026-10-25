@@ -321,6 +321,36 @@ section {
     margin-bottom: 0;
 }
 
+.experience-group-title {
+    font-size: 1.125rem;
+    font-weight: 650;
+    color: var(--text);
+    margin-bottom: 12px;
+}
+
+.experience-group + .experience-group-title {
+    margin-top: 24px;
+}
+
+.experience-group {
+    padding-block: 10px;
+}
+
+.experience-item {
+    padding-block: 18px;
+}
+
+.experience-item + .experience-item {
+    border-top: 1px solid var(--line-solid);
+}
+
+.experience-item h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    min-width: 0;
+}
+
 .expand-icon {
     display: inline-block;
     font-size: 0.9rem;
@@ -881,6 +911,14 @@ section.reveal,
 
     .card-title h3 {
         white-space: normal;
+    }
+
+    .experience-group {
+        padding-block: 10px;
+    }
+
+    .experience-item .date {
+        align-self: flex-end;
     }
 
     .theme-main {
