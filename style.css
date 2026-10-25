@@ -351,6 +351,11 @@ section {
     min-width: 0;
 }
 
+.experience-detail {
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
 .expand-icon {
     display: inline-block;
     font-size: 0.9rem;
