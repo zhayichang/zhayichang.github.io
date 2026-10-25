@@ -1,7 +1,6 @@
 (function () {
     'use strict';
 
-    const CARD_PADDING = 28;
     const THEME_PADDING = 32;
     const easeSpring = 'cubic-bezier(0.16, 1, 0.3, 1)';
 
@@ -15,84 +14,6 @@
             t = setTimeout(() => fn.apply(this, args), wait);
         };
     }
-
-    /* =========================================
-       Collapsible Cards (Education)
-       ========================================= */
-    function expandCard(card) {
-        const content = card.querySelector('.card-content');
-        if (!content) return;
-
-        card.classList.add('open');
-        card.setAttribute('aria-expanded', 'true');
-
-        content.style.transition = 'none';
-        content.style.maxHeight = 'none';
-        content.style.opacity = '0';
-        content.style.marginTop = '0px';
-        const targetHeight = content.scrollHeight;
-        content.style.maxHeight = '0px';
-
-        requestAnimationFrame(() => {
-            content.offsetHeight; // force reflow
-            content.style.transition = `max-height 0.5s ${easeSpring}, opacity 0.4s ease, margin-top 0.4s ease`;
-            content.style.maxHeight = (targetHeight + CARD_PADDING) + 'px';
-            content.style.opacity = '1';
-            content.style.marginTop = '16px';
-        });
-    }
-
-    function collapseCard(card) {
-        const content = card.querySelector('.card-content');
-        if (!content) return;
-
-        const currentHeight = content.scrollHeight;
-        content.style.transition = 'none';
-        content.style.maxHeight = currentHeight + 'px';
-        content.offsetHeight; // force reflow
-
-        content.style.transition = `max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, margin-top 0.3s ease`;
-        content.style.maxHeight = '0px';
-        content.style.opacity = '0';
-        content.style.marginTop = '0px';
-
-        card.classList.remove('open');
-        card.setAttribute('aria-expanded', 'false');
-
-        const onTransitionEnd = (e) => {
-            if (e.propertyName === 'max-height' && !card.classList.contains('open')) {
-                content.style.maxHeight = '';
-                content.removeEventListener('transitionend', onTransitionEnd);
-            }
-        };
-        content.addEventListener('transitionend', onTransitionEnd);
-    }
-
-    function handleCardClick(event, card) {
-        const target = event.target;
-        if (target.closest('a') || target.closest('.tag')) return;
-
-        const isOpen = card.classList.contains('open');
-        if (isOpen) {
-            collapseCard(card);
-        } else {
-            expandCard(card);
-        }
-    }
-
-    document.querySelectorAll('.card.collapsible').forEach(card => {
-        card.addEventListener('click', function (e) {
-            e.stopPropagation();
-            handleCardClick(e, card);
-        });
-
-        card.addEventListener('keydown', function (e) {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                handleCardClick(e, card);
-            }
-        });
-    });
 
     /* =========================================
        Collapsible Research Themes
@@ -176,16 +97,6 @@
        Height Recalculation on Resize
        ========================================= */
     function updateAllHeights() {
-        document.querySelectorAll('.card.collapsible.open').forEach(card => {
-            const content = card.querySelector('.card-content');
-            if (content) {
-                content.style.transition = 'none';
-                content.style.maxHeight = 'none';
-                const h = content.scrollHeight;
-                content.style.maxHeight = (h + CARD_PADDING) + 'px';
-            }
-        });
-
         document.querySelectorAll('.research-theme.active').forEach(theme => {
             const content = theme.querySelector('.theme-content');
             if (content) {
@@ -277,7 +188,7 @@
 
         const selectors = [
             'section',
-            '.card.collapsible',
+            '.card',
             '.research-theme.collapsible-area',
             '.project-card',
             '.award-item',

@@ -249,8 +249,8 @@ section {
     color: var(--text);
 }
 
-/* ===== Collapsible Cards ===== */
-.card.collapsible,
+/* ===== Cards and Research Themes ===== */
+.card,
 .research-theme.collapsible-area {
     background: var(--bg-secondary);
     border: none;
@@ -259,25 +259,25 @@ section {
     margin-bottom: 16px;
     box-shadow: var(--shadow-sm);
     transition: transform 0.4s var(--ease-out), box-shadow 0.4s ease, border-color 0.3s ease;
-    cursor: pointer;
     position: relative;
     overflow: hidden;
     outline: none;
 }
 
-.card.collapsible:hover,
+.research-theme.collapsible-area {
+    cursor: pointer;
+}
+
 .research-theme.collapsible-area:hover {
     transform: scale(1.005);
     box-shadow: var(--shadow-md);
 }
 
-.card.collapsible:active,
 .research-theme.collapsible-area:active {
     transform: scale(0.998);
     transition-duration: 0.1s;
 }
 
-.card.collapsible:focus-visible,
 .research-theme.collapsible-area:focus-visible {
     box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.25), var(--shadow-md);
 }
@@ -332,29 +332,9 @@ section {
     user-select: none;
 }
 
-.card.open .expand-icon,
 .research-theme.active .expand-icon {
     transform: rotate(90deg);
     color: var(--text);
-}
-
-.card-content {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: max-height 0.5s var(--ease-spring), opacity 0.35s ease, margin-top 0.4s ease;
-    margin-top: 0;
-    will-change: max-height, opacity;
-}
-
-.card.open .card-content {
-    margin-top: 16px;
-    opacity: 1;
-}
-
-.card-content li strong {
-    color: var(--text);
-    font-weight: 600;
 }
 
 /* ===== Typography ===== */
@@ -763,7 +743,7 @@ footer {
 
 /* ===== Scroll Reveal Animation ===== */
 section,
-.card.collapsible,
+.card,
 .research-theme.collapsible-area {
     opacity: 0;
     transform: translateY(30px);
@@ -771,7 +751,7 @@ section,
 }
 
 section.reveal,
-.card.collapsible.reveal,
+.card.reveal,
 .research-theme.collapsible-area.reveal {
     opacity: 1;
     transform: translateY(0);
@@ -792,7 +772,7 @@ section.reveal,
 
     .reveal,
     section.reveal,
-    .card.collapsible.reveal,
+    .card.reveal,
     .research-theme.reveal,
     .project-card.reveal,
     .award-item.reveal,
@@ -884,7 +864,7 @@ section.reveal,
         justify-content: center;
     }
 
-    .card.collapsible,
+    .card,
     .research-theme.collapsible-area {
         padding: 22px;
         border-radius: var(--radius-sm);
