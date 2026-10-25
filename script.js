@@ -17,7 +17,7 @@
     }
 
     /* =========================================
-       Collapsible Cards (Education / Experience)
+       Collapsible Cards (Education)
        ========================================= */
     function expandCard(card) {
         const content = card.querySelector('.card-content');
