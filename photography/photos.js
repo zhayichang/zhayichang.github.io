@@ -38,6 +38,13 @@ window.photoSeries = [
         "height": 480
       },
       {
+        "title": "北京·北海公园·暮",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E6%9A%AE-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E6%9A%AE-large.jpg",
+        "width": 720,
+        "height": 364
+      },
+      {
         "title": "北京·北海公园·游",
         "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E6%B8%B8-thumb.jpg",
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E6%B8%B8-large.jpg",
@@ -284,6 +291,13 @@ window.photoSeries = [
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E4%B8%8A%E6%B5%B7%C2%B7%E9%BB%84%E6%B5%A6%E6%B1%9F%C2%B7%E9%92%9F%E6%A5%BC-large.jpg",
         "width": 720,
         "height": 429
+      },
+      {
+        "title": "北京·北京师范大学",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6-large.jpg",
+        "width": 720,
+        "height": 336
       },
       {
         "title": "北京·北京师范大学·启明",
