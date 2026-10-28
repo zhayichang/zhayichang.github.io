@@ -80,6 +80,13 @@ window.photoSeries = [
         "height": 480
       },
       {
+        "title": "北京·奥林匹克森林公园·绚",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%C2%B7%E7%BB%9A-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD%C2%B7%E7%BB%9A-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
         "title": "北京·恭王府·海棠",
         "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E6%81%AD%E7%8E%8B%E5%BA%9C%C2%B7%E6%B5%B7%E6%A3%A0-thumb.jpg",
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E6%81%AD%E7%8E%8B%E5%BA%9C%C2%B7%E6%B5%B7%E6%A3%A0-large.jpg",
