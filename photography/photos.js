@@ -3,6 +3,13 @@ window.photoSeries = [
     "title": "四时 SEASONS",
     "photos": [
       {
+        "title": "北京·中山公园·银杏",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%93%B6%E6%9D%8F-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%93%B6%E6%9D%8F-large.jpg",
+        "width": 720,
+        "height": 457
+      },
+      {
         "title": "北京·北京师范大学·夏",
         "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%A4%8F-thumb.jpg",
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%A4%8F-large.jpg",
@@ -204,6 +211,13 @@ window.photoSeries = [
         "height": 480
       },
       {
+        "title": "北京·中山公园·金秋之下",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%87%91%E7%A7%8B%E4%B9%8B%E4%B8%8B-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%87%91%E7%A7%8B%E4%B9%8B%E4%B8%8B-large.jpg",
+        "width": 720,
+        "height": 441
+      },
+      {
         "title": "北京·光华路SOHO",
         "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E5%85%89%E5%8D%8E%E8%B7%AFSOHO-thumb.jpg",
         "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E5%85%89%E5%8D%8E%E8%B7%AFSOHO-large.jpg",
@@ -260,6 +274,13 @@ window.photoSeries = [
         "height": 720
       },
       {
+        "title": "北京·北池子大街·往",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B1%A0%E5%AD%90%E5%A4%A7%E8%A1%97%C2%B7%E5%BE%80-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B1%A0%E5%AD%90%E5%A4%A7%E8%A1%97%C2%B7%E5%BE%80-large.jpg",
+        "width": 511,
+        "height": 720
+      },
+      {
         "title": "北京·地坛公园·亲",
         "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E5%9C%B0%E5%9D%9B%E5%85%AC%E5%9B%AD%C2%B7%E4%BA%B2-thumb.jpg",
         "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E5%9C%B0%E5%9D%9B%E5%85%AC%E5%9B%AD%C2%B7%E4%BA%B2-large.jpg",
@@ -285,6 +306,13 @@ window.photoSeries = [
         "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E6%85%88%E5%AF%BF%E5%AF%BA-thumb.jpg",
         "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E6%85%88%E5%AF%BF%E5%AF%BA-large.jpg",
         "width": 480,
+        "height": 720
+      },
+      {
+        "title": "北京·西华门·檐上春秋",
+        "thumb": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E8%A5%BF%E5%8D%8E%E9%97%A8%C2%B7%E6%AA%90%E4%B8%8A%E6%98%A5%E7%A7%8B-thumb.jpg",
+        "large": "images/%E5%9C%A8%E5%9C%BA%20PRESENSE/%E5%8C%97%E4%BA%AC%C2%B7%E8%A5%BF%E5%8D%8E%E9%97%A8%C2%B7%E6%AA%90%E4%B8%8A%E6%98%A5%E7%A7%8B-large.jpg",
+        "width": 663,
         "height": 720
       }
     ]
@@ -353,6 +381,13 @@ window.photoSeries = [
         "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%A4%AA%E5%BA%99%C2%B7%E6%AA%90-thumb.jpg",
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%A4%AA%E5%BA%99%C2%B7%E6%AA%90-large.jpg",
         "width": 506,
+        "height": 720
+      },
+      {
+        "title": "北京·故宫·春秋",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E6%95%85%E5%AE%AB%C2%B7%E6%98%A5%E7%A7%8B-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E6%95%85%E5%AE%AB%C2%B7%E6%98%A5%E7%A7%8B-large.jpg",
+        "width": 480,
         "height": 720
       },
       {
