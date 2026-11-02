@@ -387,8 +387,8 @@ window.photoSeries = [
         "title": "北京·故宫·春秋",
         "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E6%95%85%E5%AE%AB%C2%B7%E6%98%A5%E7%A7%8B-thumb.jpg",
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E6%95%85%E5%AE%AB%C2%B7%E6%98%A5%E7%A7%8B-large.jpg",
-        "width": 480,
-        "height": 720
+        "width": 720,
+        "height": 456
       },
       {
         "title": "北京·景山·夕阳归鸟",
