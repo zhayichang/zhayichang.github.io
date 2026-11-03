@@ -129,11 +129,25 @@ window.photoSeries = [
         "height": 465
       },
       {
+        "title": "北京·颐和园·影",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E5%BD%B1-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E5%BD%B1-large.jpg",
+        "width": 720,
+        "height": 449
+      },
+      {
         "title": "北京·颐和园·晚霞",
         "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E6%99%9A%E9%9C%9E-thumb.jpg",
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E6%99%9A%E9%9C%9E-large.jpg",
         "width": 720,
         "height": 411
+      },
+      {
+        "title": "北京·颐和园·门",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E9%97%A8-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E9%A2%90%E5%92%8C%E5%9B%AD%C2%B7%E9%97%A8-large.jpg",
+        "width": 720,
+        "height": 421
       },
       {
         "title": "呼和浩特·黄花窝铺高山草原·林",
