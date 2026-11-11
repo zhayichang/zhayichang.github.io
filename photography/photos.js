@@ -3,6 +3,13 @@ window.photoSeries = [
     "title": "四时 SEASONS",
     "photos": [
       {
+        "title": "北京·中山公园·猫",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E7%8C%AB-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E7%8C%AB-large.jpg",
+        "width": 720,
+        "height": 460
+      },
+      {
         "title": "北京·中山公园·银杏",
         "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%93%B6%E6%9D%8F-thumb.jpg",
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%93%B6%E6%9D%8F-large.jpg",
@@ -10,9 +17,30 @@ window.photoSeries = [
         "height": 457
       },
       {
+        "title": "北京·中山公园·银杏与游人",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%93%B6%E6%9D%8F%E4%B8%8E%E6%B8%B8%E4%BA%BA-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%93%B6%E6%9D%8F%E4%B8%8E%E6%B8%B8%E4%BA%BA-large.jpg",
+        "width": 720,
+        "height": 480
+      },
+      {
+        "title": "北京·北京师范大学·光",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%85%89-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%85%89-large.jpg",
+        "width": 720,
+        "height": 399
+      },
+      {
         "title": "北京·北京师范大学·夏",
         "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%A4%8F-thumb.jpg",
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%A4%8F-large.jpg",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "title": "北京·北京师范大学·影",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%BD%B1-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%BD%B1-large.jpg",
         "width": 480,
         "height": 720
       },
@@ -36,6 +64,13 @@ window.photoSeries = [
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E7%A7%8B%E6%9E%97-large.jpg",
         "width": 720,
         "height": 480
+      },
+      {
+        "title": "北京·北京师范大学·透",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E9%80%8F-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E9%80%8F-large.jpg",
+        "width": 720,
+        "height": 426
       },
       {
         "title": "北京·北海公园·春",
@@ -71,6 +106,13 @@ window.photoSeries = [
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E9%98%90%E7%A6%8F%E5%AF%BA-large.jpg",
         "width": 720,
         "height": 354
+      },
+      {
+        "title": "北京·北锣鼓巷·秋",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E9%94%A3%E9%BC%93%E5%B7%B7%C2%B7%E7%A7%8B-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E9%94%A3%E9%BC%93%E5%B7%B7%C2%B7%E7%A7%8B-large.jpg",
+        "width": 720,
+        "height": 522
       },
       {
         "title": "北京·国子监·长",
@@ -347,6 +389,13 @@ window.photoSeries = [
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E4%B8%8A%E6%B5%B7%C2%B7%E9%BB%84%E6%B5%A6%E6%B1%9F%C2%B7%E9%92%9F%E6%A5%BC-large.jpg",
         "width": 720,
         "height": 429
+      },
+      {
+        "title": "北京·光华路·秋",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%85%89%E5%8D%8E%E8%B7%AF%C2%B7%E7%A7%8B-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%85%89%E5%8D%8E%E8%B7%AF%C2%B7%E7%A7%8B-large.jpg",
+        "width": 502,
+        "height": 720
       },
       {
         "title": "北京·北京师范大学",
