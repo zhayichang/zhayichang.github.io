@@ -17,13 +17,6 @@ window.photoSeries = [
         "height": 457
       },
       {
-        "title": "北京·中山公园·银杏与游人",
-        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%93%B6%E6%9D%8F%E4%B8%8E%E6%B8%B8%E4%BA%BA-thumb.jpg",
-        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%C2%B7%E9%93%B6%E6%9D%8F%E4%B8%8E%E6%B8%B8%E4%BA%BA-large.jpg",
-        "width": 720,
-        "height": 480
-      },
-      {
         "title": "北京·北京师范大学·光",
         "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%85%89-thumb.jpg",
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E5%85%89-large.jpg",
@@ -71,6 +64,13 @@ window.photoSeries = [
         "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E4%BA%AC%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%C2%B7%E9%80%8F-large.jpg",
         "width": 720,
         "height": 426
+      },
+      {
+        "title": "北京·北海公园·先蚕坛",
+        "thumb": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E5%85%88%E8%9A%95%E5%9D%9B-thumb.jpg",
+        "large": "images/%E5%9B%9B%E6%97%B6%20SEASONS/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E5%85%88%E8%9A%95%E5%9D%9B-large.jpg",
+        "width": 720,
+        "height": 522
       },
       {
         "title": "北京·北海公园·春",
@@ -424,6 +424,20 @@ window.photoSeries = [
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E5%BD%92-large.jpg",
         "width": 720,
         "height": 327
+      },
+      {
+        "title": "北京·北海公园·柳荫白塔",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E6%9F%B3%E8%8D%AB%E7%99%BD%E5%A1%94-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E6%9F%B3%E8%8D%AB%E7%99%BD%E5%A1%94-large.jpg",
+        "width": 720,
+        "height": 435
+      },
+      {
+        "title": "北京·北海公园·秋日童话",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E7%A7%8B%E6%97%A5%E7%AB%A5%E8%AF%9D-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E7%A7%8B%E6%97%A5%E7%AB%A5%E8%AF%9D-large.jpg",
+        "width": 720,
+        "height": 400
       },
       {
         "title": "北京·城与古今",
