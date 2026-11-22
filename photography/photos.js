@@ -391,6 +391,13 @@ window.photoSeries = [
         "height": 429
       },
       {
+        "title": "北京·CBD落霞",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7CBD%E8%90%BD%E9%9C%9E-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7CBD%E8%90%BD%E9%9C%9E-large.jpg",
+        "width": 720,
+        "height": 390
+      },
+      {
         "title": "北京·光华路·秋",
         "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%85%89%E5%8D%8E%E8%B7%AF%C2%B7%E7%A7%8B-thumb.jpg",
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%85%89%E5%8D%8E%E8%B7%AF%C2%B7%E7%A7%8B-large.jpg",
@@ -438,6 +445,13 @@ window.photoSeries = [
         "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%C2%B7%E7%A7%8B%E6%97%A5%E7%AB%A5%E8%AF%9D-large.jpg",
         "width": 720,
         "height": 400
+      },
+      {
+        "title": "北京·华灯初上",
+        "thumb": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8D%8E%E7%81%AF%E5%88%9D%E4%B8%8A-thumb.jpg",
+        "large": "images/%E5%9F%8E%E5%B8%82%20CITY/%E5%8C%97%E4%BA%AC%C2%B7%E5%8D%8E%E7%81%AF%E5%88%9D%E4%B8%8A-large.jpg",
+        "width": 720,
+        "height": 351
       },
       {
         "title": "北京·城与古今",
